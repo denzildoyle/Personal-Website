@@ -1,6 +1,24 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:400,400i,700,700i,900,900i");
 * {
-  font-family: 'Lato', 'sans-serif'; }
+  font-family: 'Roboto', sans-serif; }
 
 body {
   background-color: #0E0D12; }
+
+.links-social li {
+  float: left;
+  margin-right: 8px;
+  list-style: none;
+  border-bottom: 1px solid #FEE7B0;
+  cursor: pointer; }
+  .links-social li:last-child {
+    margin-right: 0; }
+  .links-social li a {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #FEE7B0; }
+    .links-social li a:hover {
+      text-decoration: none; }
