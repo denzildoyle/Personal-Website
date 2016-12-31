@@ -22,6 +22,35 @@ h1 {
   font-size: 50px;
   margin-top: 15px; }
 
+p {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px; }
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #979797;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px; }
+
+.link {
+  font-size: 12px;
+  font-weight: 800;
+  color: #FFF;
+  cursor: pointer; }
+  .link:hover {
+    color: #FFF; }
+
+.large {
+  font-size: 420px;
+  line-height: 270px; }
+
+.experence {
+  margin-top: 120px; }
+
 .links-social {
   margin: 0;
   padding: 0;
@@ -43,15 +72,3 @@ h1 {
       color: #FEE7B0; }
       .links-social li a:hover {
         text-decoration: none; }
-
-.line {
-  width: 75px;
-  border-bottom: 1px solid #979797;
-  display: block;
-  margin-bottom: 20px; }
-
-p {
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px; }
