@@ -22,6 +22,16 @@ h1 {
   font-size: 50px;
   margin-top: 15px; }
 
+h2 {
+  font-family: 'Bodoni Std';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  line-height: 30px;
+  font-size: 30px;
+  margin-top: 30px;
+  text-transform: uppercase; }
+
 p {
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
@@ -40,16 +50,26 @@ p {
   font-size: 12px;
   font-weight: 800;
   color: #FFF;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: uppercase; }
   .link:hover {
     color: #FFF; }
+  .link:after {
+    margin-left: 8px;
+    content: '>'; }
 
 .large {
   font-size: 420px;
   line-height: 270px; }
 
-.experence {
-  margin-top: 120px; }
+#experence {
+  display: block;
+  margin-top: 240px; }
+
+.image {
+  display: block;
+  width: 80%;
+  margin: 0 auto; }
 
 .links-social {
   margin: 0;
