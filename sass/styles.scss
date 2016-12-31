@@ -1,15 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:400,400i,700,700i,900,900i');
+
+@font-face {
+	font-family: 'Bodoni Std';
+	src: url('../fonts/hinted-BodoniStd-Book.eot');
+	src: url('../fonts/hinted-BodoniStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/hinted-BodoniStd-Book.woff') format('woff'),
+		url('../fonts/hinted-BodoniStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 *{
 	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body{
 	background-color: #0E0D12;
 }
 
+h1{
+	font-family: 'Bodoni Std';
+	font-weight: normal;
+	font-style: normal;
+	color: #fff;
+	line-height: 60px;
+	font-size: 50px;
+	margin-top: 15px;
+}
+
 .links-social {
+	margin: 0;
+	padding: 0;
+	display: block;
+    overflow: auto;
+
 	li{
 		float: left;
 		margin-right: 8px;
@@ -22,7 +49,7 @@ body{
 		}
 
 		a{
-			font-weight: 100;
+			font-weight: 400;
 			text-transform: uppercase;
 			font-size: 10px;
 			letter-spacing: 1px;
@@ -33,4 +60,18 @@ body{
 			}
 		}
 	}
+}
+
+.line{
+	width: 75px;
+	border-bottom: 1px solid #979797;
+	display: block;
+	margin-bottom: 20px;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 }
