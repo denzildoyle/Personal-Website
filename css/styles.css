@@ -67,6 +67,12 @@ p {
   /*margin-top: 240px;*/
   margin-top: 100px; }
 
+#quote p {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding: 20px; }
+
 .image {
   display: block;
   width: 80%;
