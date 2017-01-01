@@ -43,6 +43,9 @@ p {
   font-size: 14px;
   line-height: 20px; }
 
+.logo {
+  height: 30px; }
+
 .line {
   width: 100%;
   border-bottom: 1px solid #979797;
@@ -66,10 +69,39 @@ p {
   font-size: 420px;
   line-height: 270px; }
 
+nav {
+  margin: 50px 0 200px 0; }
+  nav .links {
+    margin: 0;
+    padding: 0; }
+    nav .links li {
+      float: left;
+      margin-right: 30px;
+      list-style: none;
+      cursor: pointer;
+      padding-top: 4px; }
+      nav .links li:last-child {
+        margin-right: 0; }
+      nav .links li a {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        color: #fff; }
+        nav .links li a:hover {
+          text-decoration: none; }
+  nav .btn.accent {
+    background-color: #CD9208;
+    margin-top: -4px;
+    padding: 4px 15px;
+    border-radius: 2px; }
+
+section {
+  margin-bottom: 150px; }
+
 #years-experence {
-  display: block;
-  /*margin-top: 240px;*/
-  margin-top: 100px; }
+  margin-top: 240px; }
 
 #quote p, #twitter p {
   font-size: 30px;
@@ -115,3 +147,20 @@ p {
     .list li a {
       text-decoration: underline;
       color: #CD9208; }
+
+.big-list {
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: auto; }
+  .big-list li {
+    list-style: none;
+    margin-bottom: 10px; }
+    .big-list li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase; }
+      .big-list li a:hover {
+        text-decoration: none; }
