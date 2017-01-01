@@ -20,6 +20,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/denzildoyle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212613,
+		"inputAbbreviatedPath": "\/denzildoyle.jpg",
+		"outputAbbreviatedPath": "\/denzildoyle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/denzildoyle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151020,
+		"inputAbbreviatedPath": "\/images\/denzildoyle.jpg",
+		"outputAbbreviatedPath": "\/images\/denzildoyle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/education-denzildoyle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127169,
+		"inputAbbreviatedPath": "\/images\/education-denzildoyle.png",
+		"outputAbbreviatedPath": "\/images\/education-denzildoyle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
