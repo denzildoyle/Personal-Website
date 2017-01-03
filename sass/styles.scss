@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import "font-awesome";
 
 @font-face {
 	font-family: 'Bodoni Std';
@@ -76,11 +77,14 @@ p{
 
 	&:hover{
 		color: #FFF;
+		text-decoration: none;
+		cursor: pointer;
 	}
 
 	&:after{
+	  font-family: 'FontAwesome';
 		margin-left: 8px;
-		content: '>';
+		content:  "\f178";
 	}
 }
 
