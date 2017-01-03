@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
 @font-face {
 	font-family: 'Bodoni Std';
@@ -18,7 +19,7 @@
 }
 
 body{
-	background-color: #0E0D12;
+	background-color: #131315;
     background-image: url('../images/denzildoyle.jpg');
     background-repeat: no-repeat;
     background-position: right top;
@@ -129,6 +130,22 @@ nav{
 
 section{
 	margin-bottom: 150px;
+	position: relative;
+}
+
+.side-tile.work{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    display: inline-block;
+    color: #18181B;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    margin-top: -30px;
+    left: -140px;
 }
 
 #years-experence{
