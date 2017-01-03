@@ -74,17 +74,35 @@ p{
 	color: #FFF;
 	cursor: pointer;
 	text-transform: uppercase;
+    -webkit-transition: ease-out .5s;
+    -moz-transition: ease-out .5s;
+    -o-transition: ease-out .5s;
+    transition: ease-out .5s;
 
 	&:hover{
-		color: #FFF;
+		color: #CD9208;
 		text-decoration: none;
 		cursor: pointer;
+
+		&:after{
+			color: #fff;
+			margin-left: 20px;
+			-webkit-transition: ease-out .5s;
+			-moz-transition: ease-out .5s;
+			-o-transition: ease-out .5s;
+			transition: ease-out .5s;
+		}
 	}
 
 	&:after{
-	  font-family: 'FontAwesome';
+		color: #fff;
+		font-family: 'FontAwesome';
 		margin-left: 8px;
 		content:  "\f178";
+		-webkit-transition: ease-out .5s;
+		-moz-transition: ease-out .5s;
+		-o-transition: ease-out .5s;
+		transition: ease-out .5s;
 	}
 }
 
@@ -143,7 +161,7 @@ section{
     text-transform: uppercase;
     transform: rotate(-90deg);
     display: inline-block;
-    color: #18181B;
+    color: #202023;
     position: absolute;
     margin: 0;
     padding: 0;
