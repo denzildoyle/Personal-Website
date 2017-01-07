@@ -27,6 +27,13 @@ body{
     background-attachment: fixed;
 }
 
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 h1{
 	font-family: 'Bodoni Std';
 	font-weight: normal;
@@ -150,28 +157,52 @@ nav{
 	}
 }
 
+#work, .project{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#work{
+	.side-title{
+		font-family: 'Open Sans', sans-serif;
+	    font-size: 100px;
+	    text-transform: uppercase;
+	    transform: rotate(-90deg);
+	    display: inline-block;
+	    color: #202023;
+	    position: absolute;
+	    margin: 0;
+	    padding: 0;
+	    top: 50%;
+	    margin-top: -30px;
+	    left: -140px;
+	}
+	.img-wrap, .description-wrap{
+		height: 100%;
+		position: relative;
+	}
+	img{
+		position: absolute;
+		width: 70%;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.description{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+}
+
 section{
-	margin-bottom: 150px;
+	margin: 150px 0;
 	position: relative;
-}
-
-.side-tile.work{
-	font-family: 'Open Sans', sans-serif;
-    font-size: 100px;
-    text-transform: uppercase;
-    transform: rotate(-90deg);
-    display: inline-block;
-    color: #202023;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 50%;
-    margin-top: -30px;
-    left: -140px;
-}
-
-.project{
-	margin-bottom: 100px;
 }
 
 #years-experence{
@@ -187,12 +218,12 @@ section{
 	}
 }
 
-.image{
+/*.image{
 	display: block;
 	width: 80%;
 	height: auto;
 	margin: 0 auto;
-}
+}*/
 
 .links-social {
 	margin: 0;
