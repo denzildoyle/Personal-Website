@@ -21,11 +21,32 @@
 
 body{
 	background-color: #131315;
-    background-image: url('../images/denzildoyle.jpg');
+    background-image: url('../');
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    background-size:auto;
 }
+
+.bg-img{
+	position: fixed;
+	width: 45%;
+	height: auto;
+	right: 0;
+	top: 0;
+	transition:all 10s;
+	-webkit-transition:all 10s;
+    -moz-transition:all 10s;
+    -o-transition:all 10s;
+    transition:all 10s;
+}
+
+.bg-img.enlarged{
+   transform: scale(1,1); 
+   -webkit-transform: scale(1.1);
+}
+
+/*.bg-img:hover{ ; }*/
 
 body,html{
 	width: 100%;
