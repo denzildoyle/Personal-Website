@@ -12,43 +12,14 @@
 	font-style: normal;
 }
 
-
 *{
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-body{
-	background-color: #131315;
-    background-image: url('../');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    background-size:auto;
-}
-
-.bg-img{
-	position: fixed;
-	width: 45%;
-	height: auto;
-	right: 0;
-	top: 0;
-	transition:all 10s;
-	-webkit-transition: all 5s;
-    -moz-transition: all 5s;
-    -o-transition: all 5s;
-    transition: all 5s;
-}
-
-.bg-img.enlarged{
-   transform: scale(0,0); 
-   -webkit-transform: scale(1.1);
-}
-
-/*.bg-img:hover{ ; }*/
-
 body,html{
+	background-color: #131315;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -84,8 +55,27 @@ p{
 	line-height: 20px;
 }
 
+.bg-img{
+	position: fixed;
+	width: 45%;
+	height: auto;
+	right: 0;
+	top: 0;
+	transition:all 10s;
+	-webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}
+
+.bg-img.enlarged{
+   transform: scale(0,0); 
+   -webkit-transform: scale(1.1);
+}
+
 .logo{
 	height: 30px;
+	width: auto;
 }
 
 .line{
@@ -156,7 +146,6 @@ nav{
 			}
 
 			a{
-
 				font-weight: 400;
 				text-transform: uppercase;
 				font-size: 12px;
@@ -178,7 +167,12 @@ nav{
 	}
 }
 
-#work, .project, #summery{
+section{
+	margin: 150px 0;
+	position: relative;
+}
+
+#work, .project, #summary{
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -221,16 +215,6 @@ nav{
 	}
 }
 
-section{
-	margin: 150px 0;
-	position: relative;
-}
-
-#summery{
-	margin: 0;
-	padding: 0;
-}
-
 #years-experence{
 	margin: 50px 0;
 	padding: 0;
@@ -244,13 +228,6 @@ section{
 		padding: 20px;
 	}
 }
-
-/*.image{
-	display: block;
-	width: 80%;
-	height: auto;
-	margin: 0 auto;
-}*/
 
 .links-social {
 	margin: 0;
