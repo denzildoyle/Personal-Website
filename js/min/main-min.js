@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".bg-img").addClass("enlarged"),$("#title").addClass("animated fadeInDown"),$("#bio").addClass("animated fadeInUp"),$("#line").addClass("animate")});var waypoint=new Waypoint({element:document.getElementById("work"),handler:function(e){"down"==e&&console.log("here")}});
+$(document).ready(function(){$(".bg-img").addClass("enlarged"),$("#title").addClass("animated fadeInDown"),$("#bio").addClass("animated fadeInUp"),$("#line").addClass("animate")});

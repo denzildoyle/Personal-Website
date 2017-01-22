@@ -4,11 +4,12 @@ $(document).ready(function() {
     $('#bio').addClass('animated fadeInUp');
     $('#line').addClass('animate');
 });   
-var waypoint = new Waypoint({
-  element: document.getElementById('work'),
-  handler: function(direction) {
-    if (direction == "down"){
-    	console.log("here");
-    }
-  }
-});
+// var waypoint = new Waypoint({
+//   element: document.getElementById('work'),
+//   handler: function(direction) {
+//     if (direction == "down"){
+//     	// $("#pizza-hut").css("display", "block");
+//     	// $("#pizza-hut").addClass('animated fadeInDown');
+//     }
+//   }
+// });
