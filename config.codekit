@@ -51,6 +51,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/hunger-fix-website-and-mobile-app-thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321475,
+		"inputAbbreviatedPath": "\/images\/hunger-fix-website-and-mobile-app-thumbnail.png",
+		"outputAbbreviatedPath": "\/images\/hunger-fix-website-and-mobile-app-thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/instagram-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

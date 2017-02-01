@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".bg-img").addClass("enlarged"),$("#title").addClass("animated fadeInDown"),$("#bio").addClass("animated fadeInUp"),$("#line").addClass("animate")});
+$(document).ready(function(){$(".bg-img").addClass("enlarged"),$("#title").addClass("animated fadeInDown"),$("#bio").addClass("animated fadeInUp"),$("#line").addClass("animate");var e=new Date,n=e.getHours();12>n?$("#greetings").html("morning"):n>=12&&17>=n?$("#greetings").html("afternoon"):18==n?$("#greetings").html("evening"):n>=19&&24>=n&&$("#greetings").html("night")});
