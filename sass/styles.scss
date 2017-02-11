@@ -128,23 +128,7 @@ p{
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-/*
-	-webkit-transition: all 15s;
-	-moz-transition: all 15s;
-	-o-transition: all 15s;
-	transition: all 15s;*/
 }
-/*
-.bg-img.enlarged{
-	position: absolute;
-
-		  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-   transform: scale(0,0); 
-   -webkit-transform: scale(1.1);
-}*/
 
 .logo{
 	height: 30px;
@@ -152,6 +136,12 @@ p{
 }
 
 
+hr{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #979797;
+	display: block;
+}
 
 .line{
 	width: 0;
@@ -261,20 +251,20 @@ section{
 }
 
 
-	.side-title{
-		font-family: 'Open Sans', sans-serif;
-	    font-size: 100px;
-	    text-transform: uppercase;
-	    transform: rotate(-90deg);
-	    display: inline-block;
-	    color: #202023;
-	    position: fixed;
-	    margin: 0;
-	    padding: 0;
-	    top: 50%;
-	    margin-top: -30px;
-	    left: -140px;
-	}
+.side-title{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    display: inline-block;
+    color: #202023;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    margin-top: -30px;
+    left: -140px;
+}
 
 .summary{		
 	position: absolute;
@@ -288,6 +278,29 @@ section{
 	margin: 200px 0;
 	overflow: auto;
 	width: 100%;
+}
+
+.other-work{
+	h2{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	p{
+		text-align: justify;
+	}
+	.row{
+		margin-top: 50px;
+	}
+	.get-quote{
+		font-family: 'Bodoni Std';
+		font-weight: normal;
+		font-style: normal;
+		color: #fff;
+		line-height: 65px;
+		font-size: 65px;
+		margin: 15px 0 0 0;
+		color: #CD9208;
+	}
 }
 
 #work{
@@ -309,35 +322,16 @@ section{
 		-moz-transition: all 3s;
 		-o-transition: all 3s;
 		transition: all 3s;
-/*		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);*/
 
 		&:hover{
 			-webkit-filter: grayscale(0);
 			filter: grayscale(0);
 		}
 	}
-/*	img{
-		position: absolute;
-		width: 100%;
-		height: auto;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}*/
-/*	.description{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 100%;
-		transform: translate(-50%, -50%);
-	}*/
 }
 
 #years-experence{
-	margin: 50px 0;
+	margin: 150px 0;
 	padding: 0;
 }
 

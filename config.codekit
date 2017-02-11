@@ -40,6 +40,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Artboard Copy 3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137447,
+		"inputAbbreviatedPath": "\/images\/Artboard Copy 3.png",
+		"outputAbbreviatedPath": "\/images\/Artboard Copy 3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/camsel-mobile-app-thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 832943,
+		"inputAbbreviatedPath": "\/images\/camsel-mobile-app-thumbnail.png",
+		"outputAbbreviatedPath": "\/images\/camsel-mobile-app-thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/catholic-news-website-thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 890914,
+		"inputAbbreviatedPath": "\/images\/catholic-news-website-thumbnail.png",
+		"outputAbbreviatedPath": "\/images\/catholic-news-website-thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/denzildoyle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -47,6 +80,17 @@
 		"initialSize": 54108,
 		"inputAbbreviatedPath": "\/images\/denzildoyle.jpg",
 		"outputAbbreviatedPath": "\/images\/denzildoyle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Group 22.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 761674,
+		"inputAbbreviatedPath": "\/images\/Group 22.png",
+		"outputAbbreviatedPath": "\/images\/Group 22.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
