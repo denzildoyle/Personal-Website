@@ -387,6 +387,11 @@ section{
 	}
 }
 
+#experience{
+	h1{
+		margin-bottom: 25px;
+	}
+}
 
 .list{
 	margin: 0;
@@ -396,7 +401,7 @@ section{
 
     li{
 		list-style: none;
-
+		margin-bottom: 25px;
 		a{
 			text-decoration: underline;
 			color: #CD9208;
