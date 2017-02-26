@@ -339,13 +339,23 @@ section{
 	}
 }
 
-#years-experence, #education, #quote{
+#years-experence, #education, #quote, #experience, #skills{
 	margin: 150px 0;
 	display: block;
 	padding: 0;
+
+	h1{
+		margin-bottom: 25px;
+	}
 }
 
-
+#skills{
+	p{
+		line-height: 22px;
+		letter-spacing: .5px;
+		word-spacing: 2px;
+	}
+}
 
 #quote, #twitter{
 	p{
@@ -387,11 +397,6 @@ section{
 	}
 }
 
-#experience{
-	h1{
-		margin-bottom: 25px;
-	}
-}
 
 .list{
 	margin: 0;
