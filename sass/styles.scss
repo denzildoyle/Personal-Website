@@ -34,11 +34,11 @@
 
 .row{
 	margin-left: -17.5px; 
-    margin-right: -17.5px; 
-      display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+	margin-right: -17.5px; 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
 }
 
 .row > [class*='col-'] {
@@ -295,7 +295,7 @@ section{
 		margin-bottom: 10px;
 	}
 	p{
-		text-align: justify;
+		/*text-align: justify;*/
 	}
 	.row{
 		margin-top: 50px;
