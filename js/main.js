@@ -16,4 +16,6 @@ $(document).ready(function() {
 	} else if (hour >= 19 && hour <= 24){
 		$('#greetings').html('night');
 	}
+
+	$('#year').html(today.getFullYear());
 });
