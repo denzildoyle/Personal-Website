@@ -93,6 +93,10 @@
 	color: #CD9208;
 }
 
+.mobile{
+	display: none;
+}
+
 body,html{
 	background-color: #131315;
 	width: 100%;
@@ -162,10 +166,10 @@ small{
 
 
 hr.line{
-	width: 60px;
-	border: none;
-	border-bottom: 1px solid #979797;
-	display: block;
+    width: 60px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    display: block;
 }
 
 .line{
@@ -437,6 +441,9 @@ section{
 		font-size: 45px;
 		text-align: center;
 	}
+	hr.line{
+		margin: 0 auto;
+	}
 }
 
 #twitter p{
@@ -594,6 +601,16 @@ footer{
 	    padding-right: 20px; 
 	}
 
+	.mobile{
+		display: block;
+	}
+
+	#years-experence, #education, #quote, #experience, #skills{
+		h1{
+			margin-bottom: 0;
+		}
+	}
+
 	#summary{
 		padding-top: 30px;
 
@@ -601,6 +618,10 @@ footer{
 		    line-height: 60px;
 		    font-size: 45px;	
 		}
+	}
+
+	hr.line{
+	    margin: 25px 0 40px 0;
 	}
 
 	.logo{
@@ -652,6 +673,7 @@ footer{
 		text-align: center;
 		padding: 20px 0;
 		border-radius: 1px;
+		margin-top: 100px;
 	}
 
 	.other-work-divider{
