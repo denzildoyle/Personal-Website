@@ -40,28 +40,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Artboard Copy 3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 137447,
-		"inputAbbreviatedPath": "\/images\/Artboard Copy 3.png",
-		"outputAbbreviatedPath": "\/images\/Artboard Copy 3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/camsel-mobile-app-thumbnail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 832943,
-		"inputAbbreviatedPath": "\/images\/camsel-mobile-app-thumbnail.png",
-		"outputAbbreviatedPath": "\/images\/camsel-mobile-app-thumbnail.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/catholic-news-website-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -84,17 +62,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Group 22.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 761674,
-		"inputAbbreviatedPath": "\/images\/Group 22.png",
-		"outputAbbreviatedPath": "\/images\/Group 22.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/hunger-fix-website-and-mobile-app-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -106,24 +73,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/instagram-img.jpg": {
-		"fileType": 16384,
+	"\/images\/img1.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96140,
-		"inputAbbreviatedPath": "\/images\/instagram-img.jpg",
-		"outputAbbreviatedPath": "\/images\/instagram-img.jpg",
+		"initialSize": 257084,
+		"inputAbbreviatedPath": "\/images\/img1.png",
+		"outputAbbreviatedPath": "\/images\/img1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/instagram.png": {
+	"\/images\/img2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 929231,
-		"inputAbbreviatedPath": "\/images\/instagram.png",
-		"outputAbbreviatedPath": "\/images\/instagram.png",
+		"initialSize": 480135,
+		"inputAbbreviatedPath": "\/images\/img2.png",
+		"outputAbbreviatedPath": "\/images\/img2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/img3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317325,
+		"inputAbbreviatedPath": "\/images\/img3.png",
+		"outputAbbreviatedPath": "\/images\/img3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/img4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192438,
+		"inputAbbreviatedPath": "\/images\/img4.png",
+		"outputAbbreviatedPath": "\/images\/img4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/img5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130725,
+		"inputAbbreviatedPath": "\/images\/img5.png",
+		"outputAbbreviatedPath": "\/images\/img5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/img6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 352984,
+		"inputAbbreviatedPath": "\/images\/img6.png",
+		"outputAbbreviatedPath": "\/images\/img6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
