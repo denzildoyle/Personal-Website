@@ -18,6 +18,13 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background: #FEE7B0;
+}
+::-moz-selection {
+  background: #FEE7B0;
+}
+
 .grid-container{
     width: 100%; 
     margin: 0 auto;
