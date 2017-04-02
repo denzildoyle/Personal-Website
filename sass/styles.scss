@@ -171,7 +171,6 @@ small{
 	width: auto;
 }
 
-
 hr.line{
     width: 60px;
     border: none;
@@ -562,6 +561,21 @@ section{
 	-moz-animation-delay: .1s;
 	-o-animation-delay: .1s;
 	animation-delay: .1s;
+}
+
+#thankyou{
+	text-align: center;
+	h1{
+		margin-top: 50px;
+	}
+	p{
+		font-size: 16px;
+		line-height: 22px;
+		margin-top: 50px;
+	}
+	.sig{
+		margin-top: 50px;
+	}
 }
 
 footer{
